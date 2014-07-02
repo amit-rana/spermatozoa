@@ -1,0 +1,33 @@
+body {
+    background: #000;
+}
+
+#final
+{
+    position:absolute;
+    width:512px; /*image width */
+    height:380px; /*image height */
+    left:50%;
+    top:50%;
+    margin-left:-256px; /*image width/2 */
+    margin-top:-140px; /*image height/2 */
+    display: none;
+}
+
+ellipse {
+    fill: #fff;
+}
+
+path {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+}
+
+.mid {
+    stroke-width: 4px;
+}
+
+.tail {
+    stroke-width: 2px;
+}
